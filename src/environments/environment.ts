@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    lastFm: {
+        applicationName: 'testeL5',
+        apiKey: '532bceada35540404ed15d53ff1a9fad',
+        sharedSecret: '2f94f33aa1da96812c578a381347a520',
+        registeredTo: '	Daniel-27'
+    }
 };
 
 /*
