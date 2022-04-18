@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SideNavComponent } from './components/side-nav/side-nav.component';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { CommonModule } from '@angular/common';
 
@@ -17,13 +15,11 @@ import { CommonModule } from '@angular/common';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule,
     MatListModule,
     CommonModule
   ],
   declarations: [
     AppComponent,
-    SideNavComponent
   ],
   providers: [
     HttpClientModule
